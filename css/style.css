@@ -1,0 +1,59 @@
+/* resetar toda a página antes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+}
+
+.dino {
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/naruto.gif);
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    background-image: url(../img/arvore.png);
+}
+
+.game-over {
+    text-align: center;
+    color: #444444;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+.fundo {
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/konoha.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+}
+
+.placar {
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	right: 5px;
+	margin-top: 15px;
+}
+
+#pontos {
+    font-family:fantasy;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 225px;
+}
